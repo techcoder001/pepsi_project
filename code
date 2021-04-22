@@ -1,1 +1,120 @@
+<html>
+    <style>
+        body{
+            background-color:  #004466;
+        }
+        nav{
+        position: absolute;
+        width: 100%;
+        background: #004466;
+    }
+    nav ul{
+        list-style: none;
+        overflow: hidden;
+        color: white;
+        padding: 0;
+        text-align: center;
+        margin: 0;
+        transition: 1s;
+        float: right;
+        margin-right: 20px;
+    }
+    nav.black ul{
+        background: #000;
+    }
+    nav ul li{
+        display: inline-block;
+        padding: 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-family: Tahoma;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+        a:hover {
+            cursor: pointer;
+            color: yellow;
+        }
+        .content{
+            display: flex;
+            position: relative;
+            width: 100%;
+            justify-content: space-between;
+            justify-items: center;
+        }
+        .content .textBox{
+            position: relative;
+            max-width: 600px;
+            left: 5%;
+        }
+        .content .textBox h2{
+            color: #fff;
+            font-size: 4em; 
+            line-height: 1.5em;
+            font-weight: 900;
+            text-transform: uppercase;
+            font-family: verdana;
+        }
+        .content .textBox h2 span{
+            font-size: 2em;
+        }
+        .content .textBox p{
+            color: #fff;
+            font-size: 20px;
+            font-family: bookman;
+        }
+        .content a{
+            display: inline-block;
+            margin-top: 20px;
+            padding: 8px 20px;
+            background: #fff;
+            color: #004466;
+            border-radius: 40px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: Comic Sans MS;
+        }
+        .content .imgBox{
+            position: absolute;
+            top: 20%;
+            left: 60%;
+        }
+        .menu img{
+            position: absolute;
+            top: 10%;
+            left: 5%;
+            width: 10%;
+        }
+    </style>
 
+    <body>
+        
+        <nav>
+        <div class="menu">
+        <img src="pepsi-logo.png" class="logo">
+        <ul>
+            <li><a href="#about">About</a></li>
+        <li><a href="#serve">Services</a></li>
+        <li><a href="#companies">Companies</a></li>
+        <li><a href="#message-me">Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+        
+        <div class="content">
+            <div class="textBox">
+                <h2>DON'T WAIT<br><span>Grab</span> it</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#">view all products</a>
+            </div>
+            <div class="imgBox">
+                <img src="Pepsi%20Can.png" class="juice">
+            </div>
+        </div>
+    </body>
+</html>
